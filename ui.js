@@ -13,7 +13,6 @@ class UI {
         this.sunset = document.getElementById('w-sunset');
     }
 
-    //http://openweathermap.org/img/wn/10d@2x.png
     paint(weather) {
         this.location.textContent = weather.name;
         this.desc.textContent = weather.weather[0].main;
